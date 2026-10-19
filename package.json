@@ -1,8 +1,11 @@
 {
   "name": "tank-arena",
   "version": "1.0.0",
-  "private": true,
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "ws": "^8.18.0" }
+  "main": "fix.js",
+  "scripts": {
+    "start": "node fix.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
 }
