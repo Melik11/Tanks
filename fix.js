@@ -7,7 +7,7 @@ const http = require('http');
 const os   = require('os');
 const { WebSocketServer } = require('ws');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DEBUG = false;
 
 const W = 1600, H = 1000;
